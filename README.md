@@ -8,13 +8,13 @@ Using Robot Framework Test to test https://vaccine-haven.herokuapp.com/
 
 ### Required Dependency
 
-This project runs on Python 3.6 or higher and Google Chrome for MacOS Version 96.0.4664.55 (Official Build) (x86_64).
+This project runs on Python 3.6 or higher with Google Chrome Version 96 for MacOS.
 
-If you use other Operation System or other Versions, please download `chromedriver` from [here!](https://sites.google.com/chromium.org/driver/home)
+If you use other Operation System or other Versions
 
-then in [resource.robot](robot/resource.robot)
+download `chromedriver` from [here!](https://sites.google.com/chromium.org/driver/home)
 
-update _YOUR_CHROMEDRIVER_PATH_
+then in [resource.robot](robot/resource.robot), update `${CHROMEDRIVER_PATH}`
 
 ```.robot
 ${CHROMEDRIVER_PATH}    <YOUR_CHROMEDRIVER_PATH>
